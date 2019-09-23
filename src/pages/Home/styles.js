@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
+import { Link } from 'react-router-dom';
+
 const typing = keyframes`
   from {
       width: 0;
@@ -20,7 +22,8 @@ export const Container = styled.div`
   padding-top: 20%;
 
   p {
-    margin-left: 38%;
+    margin-left: auto;
+    margin-right: auto;
     /* padding-top: 20%; */
     text-align: center;
     font: 300% 'Roboto', sans-serif;
@@ -37,6 +40,12 @@ export const Container = styled.div`
   }
 `;
 
+export const LinkAssist = styled(Link)`
+  margin-left: 55%;
+  text-decoration: none;
+  color: #fff;
+`;
+
 export const SearchBar = styled.div`
   position: absolute;
   top: 80%;
@@ -46,7 +55,7 @@ export const SearchBar = styled.div`
   border-radius: 60px;
 
   &:hover > input {
-    width: 240px;
+    width: 340px;
     padding: 0 6px;
   }
 
