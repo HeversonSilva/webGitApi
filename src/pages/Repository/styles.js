@@ -21,11 +21,13 @@ transform:translateY(0px)
 export const LoadingContainer = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1em auto;
   font-family: 'Roboto';
+  background: linear-gradient(-90deg, #3d84a7, #46cdcf);
 
   span {
     font-size: 3em;

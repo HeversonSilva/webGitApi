@@ -6,7 +6,8 @@ export default function Howto() {
   return (
     <Container>
       <strong>How to use</strong>
-      <p>Is simple</p>
+      <p>To use is simple, just search a github profile name and enjoy</p>
+      <hr />
       <GoBack to="/">Start using now!</GoBack>
     </Container>
   );

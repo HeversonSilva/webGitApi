@@ -66,7 +66,7 @@ export default class Home extends Component {
               <img src={profile.avatar_url} alt={profile.login} />
               <span>{profile.login}</span>
               <Link to={`/repository/${encodeURIComponent(profile.login)}`}>
-                Detalhes
+                More info
               </Link>
             </li>
           ))}

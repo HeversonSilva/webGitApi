@@ -63,11 +63,14 @@ export const List = styled.ul`
     a {
       color: #fff;
       text-decoration: none;
+      margin: 2px;
     }
 
     span {
       font-weight: bold;
       font-size: 16px;
+      color: #333;
+      margin-top: 2px;
     }
 
     img {
