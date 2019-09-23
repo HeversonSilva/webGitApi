@@ -16,7 +16,7 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
   height: 100%;
-  background: linear-gradient(-90deg, #2957ad, #5590f6);
+  background: linear-gradient(-90deg, #dea3c8, #ffc8a8);
   padding-top: 20%;
 
   p {
