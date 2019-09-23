@@ -41,9 +41,41 @@ export const Container = styled.div`
 `;
 
 export const LinkAssist = styled(Link)`
-  margin-left: 55%;
+  margin-left: 58%;
   text-decoration: none;
   color: #fff;
+`;
+
+export const List = styled.ul`
+  list-style: none;
+  margin-top: 50px;
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    span {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+    }
+  }
 `;
 
 export const SearchBar = styled.div`
@@ -53,7 +85,9 @@ export const SearchBar = styled.div`
   transform: translate(-50%, 50%);
   background: #2f3640;
   border-radius: 60px;
+`;
 
+export const Form = styled.form`
   &:hover > input {
     width: 340px;
     padding: 0 6px;
