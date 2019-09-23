@@ -16,7 +16,7 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
   height: 100%;
-  background: linear-gradient(-90deg, #dea3c8, #ffc8a8);
+  background: linear-gradient(-90deg, #3d84a7, #46cdcf);
   padding-top: 20%;
 
   p {
@@ -43,7 +43,7 @@ export const SearchBar = styled.div`
   left: 50%;
   transform: translate(-50%, 50%);
   background: #2f3640;
-  border-radius: 40px;
+  border-radius: 60px;
 
   &:hover > input {
     width: 240px;
@@ -58,8 +58,8 @@ export const SearchBar = styled.div`
   button {
     color: white;
     float: right;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: #2f3640;
     display: flex;
@@ -69,13 +69,15 @@ export const SearchBar = styled.div`
   }
 
   input {
+    text-align: center;
+    margin-top: 10px;
     border: none;
     background: none;
     outline: none;
     float: left;
     padding: 0;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     transition: 0.4s;
     line-height: 40px;
     width: 0;
