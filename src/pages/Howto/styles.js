@@ -22,11 +22,18 @@ export const Container = styled.div`
     color: #333;
   }
 
+  span {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+  }
+
   hr {
     border: 1px solid rgba(50, 50, 50, 0.2);
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
     margin-bottom: 5px;
   }
 `;

@@ -58,7 +58,7 @@ export default class Home extends Component {
 
     return (
       <Container>
-        <p>Its simple. Just search!</p>
+        <p>It's simple. Just search!</p>
         <LinkAssist to="/howto">Need Assist? </LinkAssist>
         <List>
           {profiles.map(profile => (

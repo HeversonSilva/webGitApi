@@ -2,6 +2,8 @@ import styled, { keyframes, animation } from 'styled-components';
 
 export const Container = styled.div`
   height: 100%;
+  justify-items: center;
+  text-align: center;
   background: linear-gradient(-90deg, #3d84a7, #46cdcf);
 `;
 
@@ -18,6 +20,42 @@ transform:translateY(0px)
 		}
 `;
 
+export const Owner = styled.ul`
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  li {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(50, 50, 50, 0.2);
+
+    h1 {
+      color: #333;
+    }
+
+    span {
+      color: #eee;
+      padding: 5px;
+      background: rgba(50, 50, 50, 0.2);
+      border-radius: 10px;
+    }
+
+    p {
+      max-width: 200px;
+      margin-top: 5px;
+      font-size: 16px;
+    }
+  }
+`;
+
 export const LoadingContainer = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
@@ -25,7 +63,7 @@ export const LoadingContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1em auto;
+  margin: 0 auto 1em auto;
   font-family: 'Roboto';
   background: linear-gradient(-90deg, #3d84a7, #46cdcf);
 
