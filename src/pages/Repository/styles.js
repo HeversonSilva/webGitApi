@@ -1,4 +1,5 @@
 import styled, { keyframes, animation } from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   height: 100%;
@@ -53,6 +54,11 @@ export const Owner = styled.ul`
       margin-top: 5px;
       font-size: 16px;
     }
+
+    a {
+      text-decoration: none;
+      color: #eee;
+    }
   }
 `;
 
@@ -98,4 +104,10 @@ export const LoadingContainer = styled.div`
   span:nth-child(7) {
     animation-delay: 0.6s;
   }
+`;
+
+export const LinkBack = styled(Link)`
+  text-decoration: none;
+  color: #eee;
+  font-size: 48px;
 `;

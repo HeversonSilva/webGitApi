@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import api from '../../services/api';
 
-import { LoadingContainer, Container, Owner } from './styles';
+import { LoadingContainer, Container, Owner, LinkBack } from './styles';
 
 export default class Repository extends Component {
   static propTypes = {
@@ -55,6 +55,7 @@ export default class Repository extends Component {
 
     return (
       <Container>
+        <LinkBack to="/">Go Back</LinkBack>
         <Owner>
           {profile.map(prof => (
             <li key={prof.id}>
